@@ -1,0 +1,160 @@
+.footer_h1{
+    color: whitesmoke;
+    text-shadow: 1px 1px 6px black;
+    text-align: center;
+    font-size: 2em;
+    -webkit-box-reflect: below -.6em linear-gradient(transparent, rgba(0, 0, 0, 0.453));
+    margin-bottom: 1em;
+}
+
+
+
+.footer_container{
+    display: flex;
+    flex-direction: column;
+
+    scroll-behavior:unset;
+    background-color:#1a1a1a;
+    box-shadow: 5px 5px 15px black;
+
+}
+
+.footer_ul {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-right: 2em;
+}
+
+.footer_ul_list {
+    list-style: none;
+}
+.footer_ul_list a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_h6 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: .8em;
+    color: whitesmoke;
+
+    
+}
+
+.fab.fa-facebook-f  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: .7em;
+    width: 1.6em;
+    height: 1.5em;
+    font-size: 1.3em;
+    font-weight: bolder;
+
+    border: 3px solid white;
+    background: #1d61ff;
+    border-radius: 50%;
+}
+
+.fab.fa-linkedin-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: .7em;
+    width: 1.6em;
+    height: 1.5em;
+    font-size: 1.3em;
+    font-weight: bolder;
+
+    border: 3px solid white;
+    background: #0093e2;
+    border-radius: 50%;
+}
+
+.fab.fa-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: .7em;
+    width: .7em;
+    height: .5em;
+    font-size: 2em;
+    font-weight: bolder;
+
+    border: 3px solid white;
+    background-color: #111;
+    border-radius: 50%;
+}
+.enlaces .fa-facebook-f:hover {
+    transform:rotateY(360deg);
+    transition: all 500ms;
+}
+.enlaces .fa-github:hover {
+    transform:rotateY(360deg);
+    transition: all 500ms;
+}
+.enlaces .fa-linkedin-in:hover {
+    transform:rotateY(360deg);
+    transition: all 500ms;
+}
+
+.fa-solid.fa-up-long {
+    position: fixed;
+    bottom: 1.5em;
+    right: 1.5em;
+    opacity: .6;
+
+    color: white;
+    font-size: 1.6em;
+    animation: row-inicio .7s alternate infinite;
+}
+
+@keyframes row-inicio {
+    to { transform: translateY(9px);}}
+
+.fa-facebook-f:hover {
+    box-shadow: 1px 1px 100px #1d61ff,
+    inset 0 0 30px #1d61ff,1px 1px 30px #1d61ff,0 0 30px #1d61ff,0 0 30px #1d61ff;
+    border: 2px solid #1d61ff;
+}
+
+.fa-github:hover {
+    box-shadow: 1px 1px 100px #111,
+    inset 0 0 30px #686767, 0 0 30px #c5c5c5, 0 0 30px #c5c5c5;
+    border: none;
+}
+
+.fa-linkedin-in:hover {
+    box-shadow: 1px 1px 100px #0093e2,
+    inset 0 0 30px #0093e2, 0 0 30px #0093e2, 0 0 30px #0093e2;
+    border: 2px solid #0093e2;
+}
+
+.fa-solid.fa-up-long:hover {
+    text-shadow: 0 2px 5px #0ce3ff, 0 2px 5px #0ce3ff, 0 2px 5px #0ce3ff;
+    transition: all 200ms;
+    opacity: 1;
+    transform: scale(1.6);
+}
+
+.hr_footer {
+    width: 60%;
+    animation: hr 2s  infinite ease-in-out alternate-reverse;
+}
+
+@keyframes hr {
+    to {
+        opacity: 1;
+        box-shadow: 0 0 2px #0ce3ff,
+        inset 20px 0 20px #0ce3ff, 20px 0 20px #0ce3ff , -20px 0 20px #0ce3ff;
+    }
+    from {
+        opacity: 0;
+    }
+}

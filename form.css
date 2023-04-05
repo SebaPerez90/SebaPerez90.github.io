@@ -1,0 +1,681 @@
+/*//////////////      FORM SECTION     ////////////*/
+
+.section_contact_h1 {
+	margin-bottom: 1em;
+
+	color: whitesmoke;
+	text-shadow: 1px 1px 6px black;
+	text-align: center;
+	font-size: 2em;
+	-webkit-box-reflect: below -.8em linear-gradient(transparent, rgba(0, 0, 0, 0.339));
+}
+
+.section_contact {
+	display: flex;
+	justify-content: center;
+	padding-top: 5em;
+	padding-bottom: 5em;
+
+	box-shadow: 5px 5px 15px black, 1px 1px 11px black;
+	background-color: #1a1a1a;
+}
+
+.section_form_innerHTML {
+	margin-top: 5em;
+	position: absolute;
+
+	color: white;
+	text-align: center;
+	text-shadow: 1px 0 4px black;
+
+	font-size: 1.5em;
+	font-weight: bolder;
+	animation:  scale_p 2s;
+}
+
+.section_contact_form {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	flex-basis: 35%;
+
+	max-width: 650px;
+	height: 30em;
+
+	box-shadow: 5px 5px 15px black;
+	background: linear-gradient(to left, rgba(25, 179, 235, 0.55), rgba(11, 88, 204, 0.782));
+}
+
+
+.section_contact_form label {
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+	margin-left: 5em;
+	margin-top: 1em;
+
+	color: whitesmoke;
+	text-shadow: 2px 2px 2px black;
+	font-weight: 700;
+	font-size: 1em;
+}
+
+.section_contact_form label:nth-child(1) {
+	margin-top: 3em;
+	width: 14em;
+}
+
+.section_contact_form label:nth-child(2) {
+	margin-top: 3em;
+	width: 14em;
+}
+.section_contact_form label:nth-child(3) {
+	margin-top: 3em;
+}
+
+.section_contact_form label input {
+	padding: .5em;
+	margin-top: 1em;
+	transition: all 400ms;
+}
+
+.section_contact_img {
+	display: flex;
+	flex-basis: 35%;
+	max-width: 650px;
+	height: 30em;
+
+	box-shadow: 5px 5px 15px black;
+	background: linear-gradient(to top, rgb(27, 27, 27), rgba(82, 82, 82, 0.644),transparent),url(contratado.avif) no-repeat bottom center;
+	background-size: cover;
+}
+
+/*//////////////      INPUT    NOMBRE     ////////////*/
+
+
+#nombre {
+	font-family: inherit;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	font-weight: bold;
+	width: 15em;
+
+	border: none;
+	border-bottom: 2px solid white;
+	background-color: inherit;
+}
+
+#nombre:hover {
+	box-shadow: 0 1px 3px#0ff;
+	border: none;
+	border-bottom: 2px solid #0ff;
+	cursor: pointer;
+	transition: all 200ms;
+}
+
+#nombre:focus {
+	outline: none;
+	background: linear-gradient(to bottom right, transparent, #89b9d1, #0ff);
+	border-radius: 2px;
+	text-transform: uppercase;
+}
+
+#nombre::selection {
+	color: #0ff;
+	
+}
+
+#nombre.wrongName {
+	border: 3px solid red;
+	border-radius: 2px;
+	box-shadow: 0 0 40px red, 0 0 40px red;
+}
+
+
+#nombre.checkName {
+	text-transform: uppercase;
+	border-bottom: 4px solid #5cfc00;
+	border-radius: 2px;
+}
+
+#nombre.checkName:hover {
+	border: none;
+	box-shadow: 0 5px 10px #5cfc00;
+	border-bottom: 4px solid #5cfc00;
+
+}
+
+
+.parrafoName {
+	position: absolute;
+	margin-top: 2em;
+
+	transform: translateX(9em);
+	text-align: center;
+	font-size: 1.3em;
+}
+
+/*//////////////      INPUT    EMAIL     ////////////*/
+
+
+.email {
+	border: none;
+	border-bottom: 2px solid white;
+	background-color: inherit;
+	line-height: 2em;
+	width: 15em;
+
+	color: white;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px black;
+
+	transition: all 300ms;
+}
+
+.email:hover {
+	box-shadow: 0 1px 2px#0ff;
+	border: none;
+	border-bottom: 2px solid #0ff;
+	cursor: pointer;
+	transition: all 200ms;
+}
+
+.email:focus {
+	outline: none;
+	background: linear-gradient(to bottom right, transparent, #89b9d1, #0ff);
+	border-radius: 2px;
+}
+
+.email::selection {
+	color: #0ff;
+}
+
+
+
+.wrongEmail {
+	border: 3px solid red;
+	border-radius: 2px;
+	box-shadow: 0 0 40px red, 0 0 40px red;
+}
+
+.checkMail {
+	box-shadow: none;
+	border-bottom: 4px solid #5cfc00;
+	border-radius: 2px;
+}
+
+
+.checkMail:hover {
+	border: none;
+	box-shadow: 0 5px 10px #5cfc00;
+	border-bottom: 4px solid #5cfc00;
+}
+.parrafoEmail {
+	position: relative;
+	margin-top: -3em;
+	bottom: -1em;
+	left: 5.3em;
+
+	text-align: center;
+	font-size: 1.3em;
+}
+
+
+/*//////////////     INPUT   TEXT-AREA     ////////////*/
+
+
+.text-area {
+	width: 23em;
+	height: 8em;
+	resize: none;
+	margin-top: 1em;
+
+	font-size: 1em;
+	color: white;
+	font-weight: bolder;
+	text-shadow: 2px 2px 2px black;
+	line-height: 3em;
+	padding: 0 .5em;
+
+	border: none;
+	border-bottom: 2px solid white;
+	background-color: inherit;
+	transition: all 500ms;
+}
+
+
+.text-area:hover {
+	border-bottom: 2px solid #0ff;
+	box-shadow: 1px 2px 5px#0ff,1px 2px 5px#0ff;
+	cursor: pointer;
+	transition: all 200ms;
+}
+
+.text-area:focus {
+	outline: none;
+	background: linear-gradient(to bottom right, transparent, #89b9d1, #0ff);
+	text-shadow: 2px 2px 3px black;
+	border-radius: 4px;
+}
+
+.text-area::selection {
+	color: #0ff;
+}
+
+
+/*//////////////        BOTON      ////////////*/
+
+
+.btn-enviar {
+	position: relative;
+	margin-top: .3em;
+	margin-bottom: 4em;
+	width: 21em;
+	height: 2.5em;
+
+	color: white;
+	font-size: 15px;
+	text-shadow: 2px 2px 2px black;
+
+	border-radius: 1px;
+	border: 2px solid white;
+	background-color: #0ff;
+	transition: all 400ms;
+}
+
+.btn-enviar:hover {
+	outline: none;
+	cursor: pointer;
+	border: 2px solid #0ff;
+	box-shadow: 1px 1px 30px#0ff,
+		1px 1px 30px#0ff, 1px 1px 30px#0ff;
+}
+
+/*///////////    CHECK ENVIADO      ///////////// */
+
+
+.check {
+	display: none;
+}
+
+.check-1 {
+	display: block;
+	color: red;
+	transform: translateY(-8px);
+}
+
+
+.checkText {
+	display: none;
+}
+
+.check-2 {
+	display: block;
+	position: absolute;
+	overflow: hidden;
+
+	padding: .5em;
+	padding-bottom: 7em;
+	height: 18em;
+	width: 70%;
+
+	font-size: .7em;
+	background-color: rgba(0, 0, 0, 0.795);
+	box-shadow: 0 0 2px #0ff,
+		inset 0 0 40px #0ff, 0 0 40px #0ff, 0 0 40px #0ff;
+
+	animation-name: bcgMessage 1s;
+	z-index: 1000;
+}
+
+@keyframes bcgMessage {
+
+	0%,
+	20% {
+		opacity: 0;
+		display: flex;
+	}
+
+	20%,
+	40% {
+		opacity: 0.2;
+		display: flex;
+	}
+
+	40%,
+	60% {
+		opacity: 0.5;
+		display: flex;
+	}
+
+	60%,
+	80% {
+		opacity: .7;
+		display: flex;
+	}
+
+	80%,
+	100% {
+		opacity: 1;
+		display: flex;
+	}
+}
+
+.innerTextConfirm {
+	margin-top: 1em;
+	display: flex;
+	justify-content: center;
+	overflow: hidden !important;
+	gap: 1em;
+
+	font-size: 2em;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+}
+
+.charge {
+	margin-top: 1em;
+	order: 1;
+	height: 30px;
+	width: 30px;
+
+	border: 10px solid transparent;
+	border-top: 7px #00e0fd;
+	border-left: 30px #00e0fd;
+	border-top-style:solid;
+	border-radius: 50%;
+
+	animation: charge 700ms linear infinite;
+}
+
+@keyframes charge {
+	to {
+		transform: rotate(360deg);
+	}
+
+	from {
+		transform: rotate(0deg);
+	}
+}
+
+ .appear_text {
+	opacity: 1;
+	color: white;
+	text-align: center;
+	font-size: 2.5em;
+	animation: appear_text 8s;
+}
+
+@keyframes appear_text {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+
+
+
+/*///////   BURBUJA CONTENEDOR CHECK     ///////////// */
+
+
+
+.send {
+	width: 4em;
+	height: 4em;
+	bottom: 1em;
+
+	color: transparent;
+	text-shadow: none;
+
+	box-shadow: 0 0 10px #5cfc00, 0 0 10px #5cfc00, 0 0 10px #5cfc00 !important;
+	border-radius: 50%;
+	background-color: #5ac21f;
+	transform: translateX(7em)translateY(10px);	
+	transition: all .7s;
+}
+
+.sendFalse {
+	box-shadow: none !important;
+	border: 2px solid red !important;
+	box-shadow: 1px 1px 30px red, 1px 1px 30px red !important;
+	background-color: red;
+	box-shadow: 1px 1px 30px red;
+	outline: none;
+	animation: sendFalse 300ms alternate;
+	animation-iteration-count: 5;
+}
+.sendFalse2 {
+	box-shadow: none !important;
+	border: 2px solid red !important;
+	box-shadow: 1px 1px 30px red, 1px 1px 30px red !important;
+	background-color: red;
+	box-shadow: 1px 1px 30px red;
+	outline: none;
+	animation: sendFalse 300ms alternate;
+	animation-iteration-count: 5;
+}
+
+@keyframes sendFalse {
+
+	0%,
+	20% {
+		transform: rotate(3deg);
+	}
+
+	2%,
+	40% {
+		transform: rotate(-3deg);
+	}
+
+	40%,
+	60% {
+		transform: rotate(0);
+	}
+
+	60%,
+	80% {
+		transform: rotate(3deg);
+	}
+
+	80%,
+	100% {
+		transform: rotate(-3deg);
+	}
+}
+
+.section_contact_confirm {
+	min-height: 420px;
+	animation: form_confirm .6s backwards;
+	
+}
+@keyframes form_confirm {
+	0% {
+		opacity: 0;
+		transform: translateY(100em) scale(0);
+	}
+}
+#mailto {
+	opacity: 0;
+	position: absolute;;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (min-width:1200px) {
+	.section_contact_form {
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+
+	.section_contact_img {
+		height: 34em;
+		background: linear-gradient(to top, rgb(27, 27, 27), rgba(82, 82, 82, 0.644),transparent),url(contratado.avif) no-repeat bottom center;
+		background-size:cover;
+	}
+
+	.check-2 {
+		max-width: 1290px;
+	}
+	.parrafoEmail {
+		left: 4.3em;
+	}
+}
+/*//////////////////////////////////    	1125 PX 		//////////////////////////////////////////////*/
+
+@media screen and (max-width:1125px) {
+
+	.section_contact_form {
+		flex-basis: 40%;
+	}
+
+
+	.section_contact_form label {
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		margin-left: 5em;
+		margin-right: 3em;
+		margin-top: 1em;
+	}
+
+	.section_contact_form label:nth-child(1) {
+		position: relative;
+		right: 3em;
+		margin-top: 3em;
+		width: 11em;
+	}
+
+	.section_contact_form label:nth-child(2) {
+		position: relative;
+		right: 3em;
+		margin-top: 3em;
+		width: 11em;
+	}
+
+	.section_contact_form label input {
+		padding: .5em;
+		margin-top: 1em;
+		transition: all 400ms;
+	}
+
+	.section_contact_img {
+		flex-basis: 40%;
+		flex-grow: .1;
+	}
+
+	.text-area {
+		width: 20em;
+		height: 6em;
+		resize: none;
+
+		transition: all 500ms;
+	}
+
+	.btn-enviar {
+		width: 18.5em;
+	}
+
+	.send {
+		width: 4em;
+		height: 4em;
+		right: 7em;
+	}
+
+	.check-2 {
+		width: 80%;
+	}
+}
+
+/*//////////////////////////////////    	800 PX 		//////////////////////////////////////////////*/
+
+@media screen and (max-width:800px) {
+	 .section_contact_confirm {
+		min-height: 450px;
+		background: linear-gradient(to top, rgb(27, 27, 27), rgba(82, 82, 82, 0.644)),url(contratado.avif) no-repeat bottom center;
+		background-size:auto;
+	}
+	.section_contact_img {
+		display: none;
+	}
+
+	.section_contact_form {
+		flex-basis: 80%;
+		height: 40em;
+		background: linear-gradient(to left, rgba(27, 27, 27, 0.856), rgba(82, 82, 82, 0.356)), url(contratado.avif) no-repeat center center;
+	}
+
+	.check-2 {
+		width: 79%;
+	}
+	.section_form_innerHTML {
+		font-size: 1.7em;
+		margin-top: 1em;
+	}
+	.text-area {
+		height: 11em;
+		line-height: 3em;
+	}
+	.btn-enviar {
+		bottom:1em;
+	}
+}
+
+
+@media screen and (max-width:483px) {
+	.check-2 {
+		width: 82%;
+	}
+}
+
+/*//////////////////////////////////    	400 PX 		//////////////////////////////////////////////*/
+
+@media screen and (max-width:400px) {
+
+	.section_contact {
+		display: flex;
+		justify-content: center;
+	}
+
+	.section_contact_form label:nth-child(1) {
+		width: 12em;
+	}
+
+	.section_contact_form label:nth-child(2) {
+		width: 12em;
+	}
+
+	.section_contact_form label:nth-child(3) {
+		position: relative;
+		right: 2em;
+	}
+
+	.text-area {
+		width: 16em;
+		transition: all 500ms;
+	}
+
+	.btn-enviar {
+		width: 14.7em;
+		right: 2.1em;
+	}
+
+	.send {
+		width: 4em;
+		height: 4em;
+		right: 9em;
+	}
+
+	.check-2 {
+		width: 82%;
+	}
+}
