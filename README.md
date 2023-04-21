@@ -34,6 +34,7 @@ Your remodeling will be with <b style="color:royalblue;font-style:italic; font-s
 
 <h1 align=center>Hola ! Mi nombre es Sebastian Perez</h1>
 <p align=center style="text-transform:uppercase;font-style: italic; background-color:cyan; font-weight: bolder; color: black;">Front End Developer</p>
+
 > **Este es mi primer proyecto realizado con :**
 
 <ul> 
@@ -53,7 +54,7 @@ Su remodelacion sera con <b style="color:royalblue;font-style:italic; font-size:
 <div style="display:flex; flex-direction:column; gap:2em;">
     <span align=center>Para ver mas acerca de mi adjunto mi perfil de
     <a href="https://www.linkedin.com/in/sebaperez90/">Linkedin 👈</a> .</span>
-    <h3 align=center>Muchas gracias por tomarte el tiempor 😁</h3>
+    <h3 align=center>Muchas gracias por tomarte el tiempo 😁</h3>
 
 </div>
 
