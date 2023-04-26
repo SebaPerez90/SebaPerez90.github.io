@@ -1,7 +1,7 @@
 ## EN 🌏
 <h1 align=center>Hello ! My name is <strong>Sebastian Perez</strong>.</h1>
 
-<p align=center     style="text-transform:uppercase;font-style: italic; background-color:cyan; font-weight: bolder; color: black;">Front End Developer</p>
+<p align=center style="text-transform:uppercase;font-style: italic; background-color:cyan; font-weight: bolder; color: black;">Front End Developer</p>
 
 > **This is my first project done with :**
 <ul> 
@@ -34,6 +34,7 @@ Your remodeling will be with <b style="color:royalblue;font-style:italic; font-s
 
 <h1 align=center>Hola ! Mi nombre es Sebastian Perez</h1>
 <p align=center style="text-transform:uppercase;font-style: italic; background-color:cyan; font-weight: bolder; color: black;">Front End Developer</p>
+
 > **Este es mi primer proyecto realizado con :**
 
 <ul> 

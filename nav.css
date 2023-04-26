@@ -999,5 +999,8 @@
         transform: rotate(-45deg) translate(-4px, 3px);
     }
 
+    .border_intermitente {
+    margin-top: .7em;
+}
 
 }
