@@ -986,5 +986,18 @@
     .div_saludo p {
         font-size: .8em;
     }
+    .active_line1 {
+        transform: rotate(45deg) translate(1px, 1px);
+    }
+
+    .active_line2 {
+        opacity: 0;
+        margin-left: -30px;
+    }
+
+    .active_line3 {
+        transform: rotate(-45deg) translate(-4px, 3px);
+    }
+
 
 }

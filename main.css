@@ -1,7 +1,6 @@
 html,
 body {
     margin: 0;
-    /* margin-left: 0; */
     scroll-behavior: smooth;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: linear-gradient(to left, #00e1ff, #0077ff5b, #0026ff63);
@@ -19,12 +18,12 @@ body {
     flex-direction: column;
     position: relative;
     max-width: 1300px;
-
+    overflow: hidden;
     font-weight: bolder;
     color: whitesmoke;
     text-shadow: 1px 2px 1px black;
     box-shadow: 5px 5px 15px black;
-    border-radius: .2em;
+    border-radius: 1em 1em 1em 1em;
 
     margin-left: 1em;
     margin-right: 1em;
@@ -34,7 +33,6 @@ body {
 .section_bio_div_containers {
     display: flex;
     justify-content: space-around;
-
     padding-left: 2em;
     padding-right: 2em;
 
@@ -45,8 +43,9 @@ body {
     color: whitesmoke;
     text-shadow: 1px 1px 6px black;
     text-align: center;
-    font-size: 1.7em;
-    -webkit-box-reflect: below -.8em linear-gradient(transparent, rgba(0, 0, 0, 0.453));
+    font-size: 1.3em;
+    margin-bottom: 1.5em;
+    -webkit-box-reflect: below -.6em linear-gradient(transparent, rgba(0, 0, 0, 0.453));
 }
 
 .section_bio_div {
@@ -105,10 +104,11 @@ body {
 
 .skills {
     color: whitesmoke;
+    margin-bottom: 1.5em;
     text-shadow: 1px 1px 6px black;
-    font-size: 2em;
+    font-size: 1.3em;
     text-align: center;
-    -webkit-box-reflect: below -.8em linear-gradient(transparent, rgba(0, 0, 0, 0.527));
+    -webkit-box-reflect: below -.6em linear-gradient(transparent, rgba(0, 0, 0, 0.527));
 }
 
 .section_skills {
@@ -413,9 +413,10 @@ body {
 .proyecto_h2 {
     color: whitesmoke;
     text-shadow: 1px 1px 6px black;
+    margin-bottom: 1.5em;
     text-align: center;
-    font-size: 1.7em;
-    -webkit-box-reflect: below -.8em linear-gradient(transparent, rgba(0, 0, 0, 0.453));
+    font-size: 1.3em;
+    -webkit-box-reflect: below -.6em linear-gradient(transparent, rgba(0, 0, 0, 0.453));
 }
 
 .proyectos {

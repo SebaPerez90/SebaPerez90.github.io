@@ -1,13 +1,12 @@
 /*//////////////      FORM SECTION     ////////////*/
 
 .section_contact_h1 {
-	margin-bottom: 1em;
-
+	margin-bottom: 1.5em;
 	color: whitesmoke;
 	text-shadow: 1px 1px 6px black;
 	text-align: center;
-	font-size: 2em;
-	-webkit-box-reflect: below -.8em linear-gradient(transparent, rgba(0, 0, 0, 0.339));
+	font-size: 1.3em;
+	-webkit-box-reflect: below -.6em linear-gradient(transparent, rgba(0, 0, 0, 0.339));
 }
 
 .section_contact {
