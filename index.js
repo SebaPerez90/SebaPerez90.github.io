@@ -1,3 +1,6 @@
+window.addEventListener('load', () => {
+    alert('DEPRECADO / DEPRECATED');
+});
 
 const vermas_btn = document.querySelector('.vermas_btn ');
 
